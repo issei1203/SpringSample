@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS message(
+    id INT(3) AUTO_INCREMENT PRIMARY KEY ,
+    message VARCHAR (256) NOT NULL
+    );
