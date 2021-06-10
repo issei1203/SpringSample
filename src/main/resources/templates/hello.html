@@ -1,1 +1,23 @@
-aaa
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello</title>
+</head>
+<body>
+<form method="post" action="/">
+    <input type="text" name="message">
+    <input type="submit">
+</form>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>メッセージ</th>
+    </tr>
+    <tr th:each="helloEntity : ${helloEntityList}">
+        <td th:text="${helloEntity.id}"></td>
+        <td th:text="${helloEntity.message}"></td>
+    </tr>
+</table>
+</body>
+</html>
