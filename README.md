@@ -8,7 +8,7 @@ docker 20.10.5
 
 **実行方法**
 ```
-docker compose run -d
+docker compose up -d
 ```
 1.dockerでmysql起動(ポート3316が空いてること)
 ```
