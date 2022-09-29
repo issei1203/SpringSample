@@ -4,7 +4,10 @@
 
 Java 11
 
-docker 20.10.5
+docker 20.10.5 (dockerはDockerDesktopを入れるといいかも)
+
+DockerDesktop
+https://docs.docker.com/desktop/install/mac-install/
 
 **実行方法**
 ```
